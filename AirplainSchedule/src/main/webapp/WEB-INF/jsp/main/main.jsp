@@ -28,7 +28,7 @@
 
 <div class="wrapper">
 	<div id="three-column" class="container">
-		<div><span class="arrow-down"></span></div>
+		<div><span class="arrow-down"></span></div> 
 		<div id="tbox1">
 			<div class="title">
 				<h2>Maecenas luctus</h2>
