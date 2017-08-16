@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Main</title>
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
-<link href="../css/default2.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/resources/stylesheets/main.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="header-wrapper">
@@ -55,7 +55,7 @@
 			<h2>Welcome to our website</h2>
 		</div>
 		<p>This is EarthyBlue, a free, fully standards-compliant CSS template designed by TEMPLATED. The photos in this template are from Fotogrph. This free template is released under the Creative Commons Attribution license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :) </p>
-		<img src="../images/banner.jpg" class="image image-full" alt="" />
+		<img src="${pageContext.request.contextPath}/resources/img/banner.jpg" class="image image-full" alt="" />
 	</div>
 </div>
 
