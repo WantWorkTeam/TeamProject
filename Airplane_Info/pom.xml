@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.teamproject</groupId>
 	<artifactId>airplane</artifactId>
-	<name>AirplainSchedule</name>
+	<name>Airplane_Info</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
@@ -115,12 +115,7 @@
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-jdbc</artifactId>
-			<version>4.1.4.RELEASE</version>
-		</dependency>
+		</dependency>        
 	</dependencies>
     <build>
         <plugins>
