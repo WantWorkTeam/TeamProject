@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 
-@Controller(value="/member")
+@Controller
 public class MemberController {
 //	public JdbcTemplate template;
 //
@@ -14,7 +14,7 @@ public class MemberController {
 //		this.template = template;
 //		Constant.template = this.template;
 //	}
-	@RequestMapping(value="/join", method=RequestMethod.GET)
+	@RequestMapping(value="/member/join", method=RequestMethod.GET)
 	public String openJoinPage(){
 		System.out.println("openJoinPage()");
 		
